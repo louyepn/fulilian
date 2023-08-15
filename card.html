@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>芙莉莲卡片</title>
+    <style>
+      /* 清除默认样式 */
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      /* 网页背景 */
+      body {
+        background-color: #f1f1f1;
+        background-image: url(./card_images/fulilian03.jpg);
+        background-repeat: no-repeat;
+        background-position: top;
+        background-size: 55%;
+        background-attachment: fixed;
+      }
+
+      /* 卡片盒子 */
+      .card {
+        margin: 150px auto 50px;
+        padding-top: 40px;
+        border: 3px solid #000;
+        box-shadow: 2px 2px 10px 1px rgba(0, 0, 0, 0.5) inset;
+
+        width: 270px;
+        height: 255px;
+        background-color: #fff;
+        background-image: url(./card_images/fulilian02.jpg);
+        background-position: top;
+        background-size: cover;
+        text-align: center;
+
+        border-radius: 20px;
+      }
+
+      img {
+        width: 30%;
+      }
+
+      .card a {
+        display: block;
+        margin-top: 20px;
+        margin-bottom: 12px;
+        font-size: 18px;
+        font-weight: 700;
+        color: #333;
+        text-decoration: none;
+      }
+
+      .card a:hover {
+        color: dodgerblue;
+      }
+
+      .card p {
+        font-size: 12px;
+        font-weight: 700;
+        color: #555;
+      }
+
+      .video {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="card">
+      <img src="./card_images/fulilian01.jpg" title="芙莉莲" />
+      <a href="https://manga.bilibili.com/detail/mc30460" target="_blank"
+        >芙莉莲</a
+      >
+      <p>フリレン</p>
+    </div>
+    <div class="video">
+      <video src="./card_images/fulilian.mp4" controls></video>
+    </div>
+  </body>
+</html>
